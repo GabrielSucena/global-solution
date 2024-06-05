@@ -1,0 +1,57 @@
+.viagens {
+    margin-top: 100px;
+}
+
+.links {
+    margin-right: 20px;
+}
+
+.imagem {
+    border-radius: .4rem;
+    width: 500px;
+    height: 300px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.sm {
+    padding: .1rem;
+    font-size: .4rem;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.data .container {
+    margin-bottom: 30px;
+}
+
+.form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.data > button{
+    opacity: 0;
+    transition: opacity .2s ease;
+}
+
+.data:hover > button{
+    opacity: 1;
+}
+
+.text {
+    width: 400px;
+    margin-left: 200px;
+}
+
+.invisivel {
+    opacity: 0;
+}

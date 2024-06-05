@@ -1,0 +1,24 @@
+#footer{
+    background-color: #00295A;
+    height: 235px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageFooter {
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    width: 186px;
+    height: 158px;
+}
+
+#footer .logo{
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border: #fff 2px solid;
+    padding: 20px;
+    text-decoration: none;
+}

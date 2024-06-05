@@ -1,0 +1,134 @@
+#banner{
+    margin-top: 2.52vh;
+    height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner h1{
+    font-size: 4em;
+    color: #f3f6f6;
+}
+
+#banner h1 span{
+    color: #65cef5;
+}
+
+#topicos {
+    margin-top: -70px;
+    margin-bottom: 0;
+    padding: 0 0 50px 0;
+}
+
+#topicos .estiloTopico {
+    height: 450px;
+    background: #F3F3F3;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 60px 20px 0 20px;
+    margin-bottom: 40px;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+.estiloTopico p {
+    padding: 8px 0 10px 0;
+}
+
+#ultimasViagens {
+    height: 90vh;
+    margin-bottom: 0;
+}
+
+#ultimasViagens h4 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #65cef5;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#ultimasViagens h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #131414;
+    font-weight: 700;
+}
+
+#ultimasViagens ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    height: 100%;
+}
+
+#ultimasViagens li {
+    list-style: none;
+}
+
+.card {
+    margin-top: -200px;
+    max-height: 600px;
+    max-width: 500px;
+    position: relative;
+    cursor: pointer;
+}
+
+.card .image {
+    height: 100%;
+    width: 100%;
+    border: black 2px solid;
+}
+
+.image img {
+    height: 500px;
+    width: 400px;
+}
+
+.card .texto {
+    position: absolute;
+    width: 300px;
+    top: 20px;
+    left: 20px;
+}
+
+.texto h3 {
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+.texto p {
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+    opacity: 0;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.card:hover::before{
+    width: 100%;
+}
+
+.card:hover p {
+    opacity: 1;
+}
+
+

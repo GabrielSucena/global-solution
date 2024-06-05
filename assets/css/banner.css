@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 139.28vh;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 2.52vh 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    font-weight: 550;
+    background-color: #f3f6f6;
+    z-index: 99;
+}
+
+header .logo{
+    color: #101210;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border: #101210 2px solid;
+    padding: 20px;
+    text-decoration: none;
+}
+
+header ul li a {
+    color: #101210;
+    text-decoration: none;
+}
+
+header.rolagem{
+    background-color: #00295A;
+    padding: 2.52vh 4%;
+}
+
+header.rolagem .logo{
+    border: #fff 2px solid;
+}
+
+header.rolagem a, header.rolagem i{
+    color: #fff;
+}
+
+header i{
+    font-size: 30px;
+    color: #fff;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 4.35vh;
+}
